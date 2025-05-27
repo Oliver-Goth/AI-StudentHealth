@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-df = pd.read_csv("students_mental_health_survey.csv")
+df = pd.read_csv("Dataset/students_mental_health_survey.csv")
 df.columns = df.columns.str.strip()
 
 for index, row in df.head(5).iterrows():
